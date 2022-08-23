@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./normalize.css"/>
+    <link rel="stylesheet" href="./style.css"/>
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+    <header>
+        <div class="Logo">
+                <h1>STORE</h1>
+            <nav class="menu">
+                <a href="#Home">Home</a>
+                <a href="#Products">Products</a>
+            </nav>
+        </div>
+            <div class="btn add"><span class="material-symbols-outlined">
+                shopping_cart
+                </span><span id="countCarr" class="add">0</span>
+            </div>
+    </header>
+    <div id="modal-carrito">
+        <div class="details">
+                <div id="close">
+                    <button class="btn">Cerrar</button>
+                </div>
+                <h3>CARRITO</h3>
+                <div id="carritoContenedor">
+                </div>
+                <p class="precioProducto">Precio total: $<span id="precioTotal">0</span></p>
+                <button id="vaciarCarrito" class="addbutton">Vaciar Carrito</button>
+        </div>
+    </div>
+    <main>
+        <section>
+            <h2>NEW SWEATSHIRT</h2>
+            <h2>COLLECTIONS 2022</h2>
+            <p>Lastet arrival of the new Hanes Midweight Crewneck sweatshirt imported from the 2022 series, with a modern design.</p>
+            <h3>$40</h3>
+            <a href="#Products" class="move-font btn">Discover</a>
+        </section>
+            <img src="./Lentes; 2.jpg"/>
+    </main>
+    <section id="Products">
+            <ul>
+                <li>
+                    <span class="headProducts">Show All</span> 
+                    <span class="subtitle1">Show all products</span>
+                </li>
+                <li>
+                    <span class="headProducts">Tote Bags</span> 
+                    <span class="subtitle1">3 Products</span>
+                </li>
+                <li>
+                    <span class="headProducts">SunGlasses</span> 
+                    <span class="subtitle1">3 Products</span>
+                </li>
+                <li>
+                    <span class="headProducts">Bags</span> 
+                    <span class="subtitle1">3 Products</span>
+                </li>
+            </ul>
+            <hr>
+    </section>
+    <div id="contendorProductos"></div>
+    <footer>
+        <ul>
+            <li>
+                <span class="orange">Our Infmation</span>
+                <p class="white">Toluca-México</p>
+            </li>
+            <li>
+                <span class="orange">About us</span>
+                <p class="white">Support Center</p>
+                <p class="white">Customer Support</p>
+                <p class="white">About Us</p>
+                <p class="white">Copy Right</p>
+            </li>
+            <li>
+                <span class="orange">Product</span>
+                <p class="white">Hoodies</p>
+                <p class="white">Shirts</p>
+                <p class="white">Sweatshirts</p>
+            </li>
+            <li>
+                <span class="orange">Social</span>
+                <nav>
+                <a href="#" class="logo-img"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="46" height="46" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                  </svg></a>
+                <a href="#" class="logo-img"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="46" height="46" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+                  </svg></a>
+                <a href="#" class="logo-img"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="46" height="46" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <rect x="4" y="4" width="16" height="16" rx="4" />
+                    <circle cx="12" cy="12" r="3" />
+                    <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+                  </svg></a>
+                </nav>
+            </li>
+        </ul>
+    </footer>
+</body>
+<script src="./code.js" type="module"></script>
+</html>
